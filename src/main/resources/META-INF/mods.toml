@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[mods]]
+modId="tntringmod"
+version="1.0.0"
+displayName="TNT Ring Cannon Mod"
+description='''
+Усиленная 1-я пушка: выпускает 3 кольца мощного динамита при сматывании удочки. Работает на сервере и в одиночной игре.
+'''
+
+[[dependencies.tntringmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tntringmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11,1.22)"
+    ordering="NONE"
+    side="BOTH"
